@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmedhegazy.azkar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FullscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Azkar_Daily" />
+        <activity android:name=".Forty_Nuclear" />
+        <activity android:name=".God_Names" />
+        <activity android:name=".Counter" />
+        <activity android:name=".Fadal_Aldhikr" />
+        <activity android:name=".Azkar_Almasa" />
+        <activity android:name=".Azkar_Alsabah" />
+        <activity android:name=".Azkar_Aldhan" />
+        <activity android:name=".Azkar_Almasjid" />
+        <activity android:name=".Azkar_Alwudu" />
+        <activity android:name=".Azkar_Alsala" />
+        <activity android:name=".Azkar_Altaeam" />
+        <activity android:name=".Azkar_Almanzil" />
+        <activity android:name=".Azkar_Alkhala" />
+        <activity android:name=".Azkar_Alaistiaqz" />
+        <activity android:name=".Azkar_Alnuwm" />
+        <activity android:name=".Azkar_Alhaji"></activity>
+    </application>
+
+</manifest>

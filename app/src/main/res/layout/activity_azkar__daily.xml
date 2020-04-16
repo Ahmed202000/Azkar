@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bak"
+    tools:context=".Azkar_Daily">
+
+
+    <Button
+        android:id="@+id/Fadal_Aldhikr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:background="@drawable/shiep_button"
+        android:gravity="center"
+        android:text=" فضل الذكر"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/_22sdp"
+        android:textStyle="bold"
+        android:layout_above="@+id/l6"/>
+
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_above="@+id/l5">
+
+        <Button
+            android:id="@+id/Azkar_Alsabah"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Reting"
+            android:background="@drawable/shiep_button"
+            android:text="اذكار الصباح"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Azkar_Almasa"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shiep_button"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="اذكار المساء"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_above="@+id/l1">
+
+        <Button
+            android:id="@+id/Azkar_Almasjid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Reting"
+            android:background="@drawable/shiep_button"
+            android:text="اذكار المسجد"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Azkar_Aldhan"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shiep_button"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text="اذكار الأذان"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/Azkar_Alsala"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Reting"
+            android:background="@drawable/shiep_button"
+            android:text="اذكار الصلاة"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Azkar_Alwudu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shiep_button"
+            android:layout_marginStart="10dp"
+            android:text="اذكار الوضوء"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_below="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp">
+
+        <Button
+            android:id="@+id/Azkar_Almanzil"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Reting"
+            android:background="@drawable/shiep_button"
+            android:text="اذكار المنزل"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Azkar_Altaeam"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shiep_button"
+            android:layout_marginStart="10dp"
+            android:text="اذكار الطعام"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_below="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp">
+
+        <Button
+            android:id="@+id/Azkar_Alaistiaqz"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Reting"
+            android:background="@drawable/shiep_button"
+            android:text="اذكارالإستيقاظ"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Azkar_Alkhala"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/shiep_button"
+            android:text="اذكار الخلاء"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/l3"
+        android:id="@+id/l4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp">
+
+        <Button
+            android:id="@+id/Azkar_Alhaji"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Reting"
+            android:background="@drawable/shiep_button"
+            android:text="اذكارالحج"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Azkar_Alnuwm"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="@drawable/shiep_button"
+            android:text="اذكار النوم"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

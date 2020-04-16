@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/bak"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/Azkar_Daily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الاذكار اليوميه"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_above="@+id/Forty_Nuclear"
+        android:background="@drawable/shiep_button"/>
+
+
+    <Button
+        android:id="@+id/Forty_Nuclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الاربعون النووية"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_above="@+id/God_Names"
+        android:background="@drawable/shiep_button"/>
+
+
+    <Button
+        android:id="@+id/God_Names"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="اسماء اللّه الحسني"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_above="@+id/Counter"
+        android:background="@drawable/shiep_button"/>
+
+
+    <Button
+        android:id="@+id/Counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="عداد التسابيح"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shiep_button"/>
+
+
+    <Button
+        android:id="@+id/ShareApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="شارك التطبيق"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/Counter"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shiep_button"/>
+
+    <Button
+        android:id="@+id/Reting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تقييمك يهمنا"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/ShareApp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/shiep_button"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
